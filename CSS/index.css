@@ -1,0 +1,179 @@
+/* global */
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+/* HEADER */
+.header img{
+    width: 250px;
+}
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 10px 0px;
+    margin: 5px 0 10px;
+
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    /* text-align */
+    /* line-height : xét chiều cao cho các dòng*/
+    /* word-spacing: khoảng cách giữa các từ trong đoạn văn; */
+    /* letter-spacing: khoảng cách giữa các chữ cái; */
+    /* text-indent: thụt đầu dòng; */
+    font-size: 18px;
+}
+.header li{
+    display: inline;
+    /* font-size: kích thước chữ; */
+    /* font-weight: thiết lập sự tô đậm của chữ; */
+    /* font-style: thiết lập sự in nghiêng của chữ; */
+    /* font-family: thiết lập kiểu chữ; */
+    margin: 0px 10px;
+
+}
+/* carousel */
+.carousel {
+    background-image: url(../img/slider_1.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+/* Intro */
+.intro__text{
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+/* .intro__left{
+    float: left;
+    width: 50%;
+}
+.intro__right{
+    float: left;
+    width: 50%;
+} */
+.intro__left,.intro__right{
+    float: left;
+    width: 50%;
+}
+.intro__smallitem{
+    float: left;
+    width: 50%;
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+.intro__item{
+    padding: 0px 15px 25px;
+}
+/* products */
+.products{
+    padding-bottom: 70px;
+}
+.products h2{
+    text-align: center;
+    font-size: 30px;
+}
+.products__items{
+    float: left;
+    width: 25%;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+}
+.products__items img{
+    width: 100% ;
+}
+.products__items h3{
+    font-size: 25px;
+}
+.products__items p{
+    font-size: 17px;
+}
+.products__items button{
+    background-color: red;
+
+    border:1px solid red;
+    border-radius: 3px;
+
+    color: white;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+/* BANNER */
+.banner{
+    background-image: url(../img/nature.jpg);
+    height: 500px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+}
+.banner__circle{
+    width: 320px;
+    height: 320px;
+    /* rgba */
+    background-color: rgba(131, 39, 39, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    /* opacity: 0.8; */
+    position: absolute;
+    top: 15px;
+    left: 460px;
+}
+.banner__circle p{
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+.banner__circle p:first-child{
+    font-size: 40px;
+    margin: 50px 0 0;
+}
+.banner__circle p:nth-child(2){
+    font-size: 90px;
+    margin: 0px;
+}
+/* Services */
+.service{
+    margin: 30px 0 10px;
+}
+.services__content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.services__item{
+    float: left;
+    width: 33.33%;
+    padding: 0px 10px;
+}
+.services__item i{
+    font-size: 40px;
+}
+.services__item h2{
+    margin: 10px 0;
+}
+.services__item p{
+    margin: 0px;
+}
+/* Footer  */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer h2, p{
+    margin: 0px;
+}
